@@ -9,3 +9,8 @@ dependencies = [
     "markdown>=3.7",
     "pelican>=4.9.1",
 ]
+
+[tool.uv]
+dev-dependencies = [
+    "livereload>=2.7.0",
+]
