@@ -1,0 +1,11 @@
+[project]
+name = "pelican-collection-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "invoke>=2.2.0",
+    "markdown>=3.7",
+    "pelican>=4.9.1",
+]
