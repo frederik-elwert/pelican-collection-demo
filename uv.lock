@@ -166,6 +166,20 @@ wheels = [
 ]
 
 [[package]]
+name = "pelican-collection-builder"
+version = "0.0.0"
+source = { editable = "../pelican-collection-builder" }
+dependencies = [
+    { name = "pelican" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "markdown", marker = "extra == 'markdown'", specifier = ">=3.4" },
+    { name = "pelican", specifier = ">=4.5" },
+]
+
+[[package]]
 name = "pelican-collection-demo"
 version = "0.1.0"
 source = { virtual = "." }
@@ -173,6 +187,7 @@ dependencies = [
     { name = "invoke" },
     { name = "markdown" },
     { name = "pelican" },
+    { name = "pelican-collection-builder" },
 ]
 
 [package.dev-dependencies]
@@ -185,6 +200,7 @@ requires-dist = [
     { name = "invoke", specifier = ">=2.2.0" },
     { name = "markdown", specifier = ">=3.7" },
     { name = "pelican", specifier = ">=4.9.1" },
+    { name = "pelican-collection-builder", editable = "../pelican-collection-builder" },
 ]
 
 [package.metadata.requires-dev]
