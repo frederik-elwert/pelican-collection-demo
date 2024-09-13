@@ -1,12 +1,13 @@
-AUTHOR = 'Frederik Elwert'
-SITENAME = 'Pelican Collection Demo'
+AUTHOR = "Frederik Elwert"
+SITENAME = "Pelican Collection Demo"
 SITEURL = ""
 
+THEME = "pelican-collection-theme"
 PATH = "content"
 
-TIMEZONE = 'Europe/Berlin'
+TIMEZONE = "Europe/Berlin"
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = "en"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
