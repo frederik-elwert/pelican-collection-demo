@@ -9,6 +9,17 @@ TIMEZONE = "Europe/Berlin"
 
 DEFAULT_LANG = "en"
 
+# Collection Builder settings
+COLLECTION_ITEM_META = [
+    {"label": "Label", "value": "label"},
+    {"label": "Artist", "value": "artist"},
+    {"label": "Type", "value": "object_type"},
+    {"label": "Location", "value": "location"},
+    {"label": "Current Location", "value": "current_location"},
+    {"label": "Date", "value": "_date"},
+    {"label": "Source", "value": "source", "type": "link"},
+]
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
