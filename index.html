@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Pelican Collection Demo - Pelican Collection Demo</title>
+<meta charset="utf-8"/>
+<meta content="Pelican" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://frederik-elwert.github.io/pelican-collection-demo/feeds/all.atom.xml" rel="alternate" title="Pelican Collection Demo Full Atom Feed" type="application/atom+xml"/>
+<link href="https://frederik-elwert.github.io/pelican-collection-demo/theme/css/bulma.css" rel="stylesheet" type="text/css"/>
+<link href="https://frederik-elwert.github.io/pelican-collection-demo/theme/css/bulma-carousel.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://frederik-elwert.github.io/pelican-collection-demo/theme/css/custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<header>
+<!--<hgroup><h1><a href="https://frederik-elwert.github.io/pelican-collection-demo/">Pelican Collection Demo</a></h1></hgroup>-->
+<nav aria-label="main navigation" class="navbar my-2" role="navigation">
+<div class="container">
+<div class="navbar-brand">
+<a class="navbar-item is-size-4 has-text-weight-medium" href="https://frederik-elwert.github.io/pelican-collection-demo/">Pelican Collection Demo</a>
+<a aria-expanded="false" aria-label="menu" class="navbar-burger" data-target="navMenu" role="button">
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+</a>
+</div> <!-- /navbar-brand -->
+<div class="navbar-menu is-size-5" id="navMenu">
+<div class="navbar-start"></div> <!-- /navbar-start -->
+<div class="navbar-end">
+<a class="navbar-item" href="https://frederik-elwert.github.io/pelican-collection-demo/category/blog.html">Blog</a>
+<a class="navbar-item" href="https://frederik-elwert.github.io/pelican-collection-demo/category/collection.html">Collection</a>
+<a class="navbar-item" href="https://frederik-elwert.github.io/pelican-collection-demo/pages/about-this-demo.html">About</a>
+</div> <!-- /navbar-end -->
+</div> <!-- /navbar-menu -->
+</div> <!-- /container -->
+</nav>
+</header>
+<main class="section content">
+<div class="container">
+<div class="hero hero-image has-background-warning-dark mb-4">
+<div class="hero-body">
+<img src="/images/obj2.jpg"/>
+<p class="subtitle pl-4 py-3"><a class="has-text-light" href="/sulwan-al-mutaa.html">Sulwan Al-Muta'a</a></p>
+</div>
+</div>
+<header>
+<h2>Pelican Collection Demo</h2>
+</header>
+<p>This is the demo site for the Pelican Collection Builder experiment.</p>
+<h3>Blog</h3>
+<article>
+<header><h4><a href="https://frederik-elwert.github.io/pelican-collection-demo/launch.html" rel="bookmark" title="Permalink to Launch">Launch</a></h4></header>
+<section><p>Today, the first demo site launched.</p></section>
+<footer class="mt-2 has-text-grey">
+<div>Published: <time datetime="2024-09-17T21:36:00+02:00"> Di 17 September 2024 </time></div>
+<address>By
+                      <a href="https://frederik-elwert.github.io/pelican-collection-demo/author/frederik-elwert.html">Frederik Elwert</a>
+</address>
+</footer>
+</article>
+</div> <!-- /container -->
+</main>
+<footer class="footer">
+<div class="container">
+<address>
+          Proudly powered by <a href="https://getpelican.com/" rel="nofollow">Pelican</a>,
+          which takes great advantage of <a href="https://www.python.org/" rel="nofollow">Python</a>.
+        </address>
+</div> <!-- /container -->
+</footer>
+<script src="https://frederik-elwert.github.io/pelican-collection-demo/theme/js/bulma-carousel.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+//////////////////
+// Main Menu    //
+//////////////////
+document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+
+});
+
+//////////////////
+// Carousel     //
+//////////////////
+document.addEventListener('DOMContentLoaded', () => {
+    const carousels = document.querySelectorAll('.carousel');
+    carousels.forEach(carousel => {
+        bulmaCarousel.attach(carousel, {
+          loop: true
+        });
+    });
+});
+    </script>
+</body>
+</html>

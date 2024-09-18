@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Pelican Collection Demo - Launch</title>
+<meta charset="utf-8"/>
+<meta content="Pelican" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://frederik-elwert.github.io/pelican-collection-demo/feeds/all.atom.xml" rel="alternate" title="Pelican Collection Demo Full Atom Feed" type="application/atom+xml"/>
+<link href="https://frederik-elwert.github.io/pelican-collection-demo/feeds/blog.atom.xml" rel="alternate" title="Pelican Collection Demo Categories Atom Feed" type="application/atom+xml"/>
+<link href="https://frederik-elwert.github.io/pelican-collection-demo/theme/css/bulma.css" rel="stylesheet" type="text/css"/>
+<link href="https://frederik-elwert.github.io/pelican-collection-demo/theme/css/bulma-carousel.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://frederik-elwert.github.io/pelican-collection-demo/theme/css/custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<header>
+<!--<hgroup><h1><a href="https://frederik-elwert.github.io/pelican-collection-demo/">Pelican Collection Demo</a></h1></hgroup>-->
+<nav aria-label="main navigation" class="navbar my-2" role="navigation">
+<div class="container">
+<div class="navbar-brand">
+<a class="navbar-item is-size-4 has-text-weight-medium" href="https://frederik-elwert.github.io/pelican-collection-demo/">Pelican Collection Demo</a>
+<a aria-expanded="false" aria-label="menu" class="navbar-burger" data-target="navMenu" role="button">
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+</a>
+</div> <!-- /navbar-brand -->
+<div class="navbar-menu is-size-5" id="navMenu">
+<div class="navbar-start"></div> <!-- /navbar-start -->
+<div class="navbar-end">
+<a aria-current="page" class="navbar-item" href="https://frederik-elwert.github.io/pelican-collection-demo/category/blog.html">Blog</a>
+<a class="navbar-item" href="https://frederik-elwert.github.io/pelican-collection-demo/category/collection.html">Collection</a>
+<a class="navbar-item" href="https://frederik-elwert.github.io/pelican-collection-demo/pages/about-this-demo.html">About</a>
+</div> <!-- /navbar-end -->
+</div> <!-- /navbar-menu -->
+</div> <!-- /container -->
+</nav>
+</header>
+<main class="section content">
+<div class="container">
+<article>
+<header>
+<h2>
+<a href="https://frederik-elwert.github.io/pelican-collection-demo/launch.html" rel="bookmark" title="Permalink to Launch">Launch</a></h2>
+</header>
+<p>Today, the first demo site of the new Pelican Collection Builder system launched.</p>
+<footer>
+<p>Published: <time datetime="2024-09-17T21:36:00+02:00">
+      Di 17 September 2024
+    </time></p>
+<address>
+      By           <a href="https://frederik-elwert.github.io/pelican-collection-demo/author/frederik-elwert.html">Frederik Elwert</a>
+</address>
+<p>
+        Category: <a href="https://frederik-elwert.github.io/pelican-collection-demo/category/blog.html">Blog</a>
+</p>
+</footer>
+</article>
+</div> <!-- /container -->
+</main>
+<footer class="footer">
+<div class="container">
+<address>
+          Proudly powered by <a href="https://getpelican.com/" rel="nofollow">Pelican</a>,
+          which takes great advantage of <a href="https://www.python.org/" rel="nofollow">Python</a>.
+        </address>
+</div> <!-- /container -->
+</footer>
+<script src="https://frederik-elwert.github.io/pelican-collection-demo/theme/js/bulma-carousel.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+//////////////////
+// Main Menu    //
+//////////////////
+document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+
+});
+
+//////////////////
+// Carousel     //
+//////////////////
+document.addEventListener('DOMContentLoaded', () => {
+    const carousels = document.querySelectorAll('.carousel');
+    carousels.forEach(carousel => {
+        bulmaCarousel.attach(carousel, {
+          loop: true
+        });
+    });
+});
+    </script>
+</body>
+</html>
