@@ -19,6 +19,7 @@ COLLECTION_ITEM_META = [
     {"label": "Date", "value": "_date"},
     {"label": "Source", "value": "source", "type": "link"},
 ]
+COLLECTION_CATEGORY = "Collection"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
