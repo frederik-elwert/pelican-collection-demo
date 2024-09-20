@@ -36,6 +36,15 @@ IMAGE_PROCESS = {
         ],
         "default": "1x",
     },
+    "hero": {
+        "type": "responsive-image",
+        "srcset": [
+            ("1x", ["scale_out 1344 550 False"]),
+            ("2x", ["scale_out 2688 1100 False"]),
+            ("4x", ["scale_out 5376 2200 False"]),
+        ],
+        "default": "1x",
+    },
     "thumb": {
         "type": "responsive-image",
         "srcset": [
