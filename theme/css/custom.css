@@ -23,6 +23,11 @@
 	object-position: center;
 }
 
+.image-display {
+	margin: 0 auto;
+	width: fit-content;
+}
+
 /* Fix carousel to center images */
 .slider-item img {
 	display: block;
