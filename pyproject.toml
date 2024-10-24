@@ -9,6 +9,7 @@ dependencies = [
     "markdown>=3.7",
     "pelican-collection-builder",
     "pelican-image-process>=3.0.4",
+    "pelican-jinja2content>=1.0.1",
     "pelican>=4.9.1",
 ]
 

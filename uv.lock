@@ -243,6 +243,7 @@ dependencies = [
     { name = "pelican" },
     { name = "pelican-collection-builder" },
     { name = "pelican-image-process" },
+    { name = "pelican-jinja2content" },
 ]
 
 [package.dev-dependencies]
@@ -257,6 +258,7 @@ requires-dist = [
     { name = "pelican", specifier = ">=4.9.1" },
     { name = "pelican-collection-builder", editable = "../pelican-collection-builder" },
     { name = "pelican-image-process", specifier = ">=3.0.4" },
+    { name = "pelican-jinja2content", specifier = ">=1.0.1" },
 ]
 
 [package.metadata.requires-dev]
@@ -275,6 +277,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/53/26/2a316ef708150986794a788faf01dc3dcc8208a21b09f318f7e4d89dbd19/pelican_image_process-3.0.4.tar.gz", hash = "sha256:f7debd0dc6d20403c5ff70dab44cea2cee1afdb69433778452715b8dd7467c25", size = 3494625 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/7d/3c/5441758706bc89d07884653d3f61ad4425d731873e1a4e01d52b0aa4650f/pelican_image_process-3.0.4-py3-none-any.whl", hash = "sha256:b014f5db989218df56200cc3cf6d34d53139c94a708bb07345cba72e71e45a03", size = 3493424 },
+]
+
+[[package]]
+name = "pelican-jinja2content"
+version = "1.0.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pelican" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/bb/11/02760aa8df46931babd01214f121e35d120a993cdbf914e227bf26650337/pelican-jinja2content-1.0.1.tar.gz", hash = "sha256:ffc3da9139d55c3667a908330d9babe2b99808f56c87dcb292081324fe114a4b", size = 5357 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/df/72/6753de2c9b4f7166efef899c88b232f904e6000efe667cbc69196b156cde/pelican_jinja2content-1.0.1-py3-none-any.whl", hash = "sha256:aeececa7a250aaa0d45a0887ef418409fbf5c89916387de2163b0f8f3bc4ab77", size = 4799 },
 ]
 
 [[package]]
