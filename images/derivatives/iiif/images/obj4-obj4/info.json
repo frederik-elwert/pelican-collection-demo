@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/3/context.json",
-  "id": "http://localhost:8000/images/derivatives/iiif/images/obj4-obj4",
+  "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj4-obj4",
   "type": "ImageService3",
   "profile": "level0",
   "protocol": "http://iiif.io/api/image",
