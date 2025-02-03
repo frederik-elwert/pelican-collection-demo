@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/obj5",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Panel from Iran"
+    ]
+  },
+  "items": [
+    {
+      "id": "http://example.org/iiif/5",
+      "type": "Canvas",
+      "height": 2840,
+      "width": 4001,
+      "items": [
+        {
+          "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/page/obj5-obj5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/annotation/obj5-obj5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj5-obj5/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2840,
+                "width": 4001,
+                "service": [
+                  {
+                    "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj5-obj5",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

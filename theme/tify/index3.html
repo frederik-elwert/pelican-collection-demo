@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tify Test</title>
+	<script src="/theme/tify/tify.js"></script>
+	<link href="/theme/tify/tify.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="image-display">
+<div id="tify-viewer" style="width: 100%; height: 550px;">
+</div>
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+          new Tify({
+            container: '#tify-viewer',
+            manifestUrl: 'https://minicomp.github.io/wax/img/derivatives/iiif/obj1/manifest.json'
+          });
+        });
+      </script>
+</div>
+</body>
+</html>

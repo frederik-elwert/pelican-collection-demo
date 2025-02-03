@@ -28,6 +28,10 @@
 	width: fit-content;
 }
 
+.image-display.iiif {
+	width: 100%;
+}
+
 /* Fix carousel to center images */
 .slider-item img {
 	display: block;

@@ -1,0 +1,20 @@
+{
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "id": "http://localhost:8000/images/derivatives/iiif/images/obj1-obj1",
+  "type": "ImageService3",
+  "profile": "level0",
+  "protocol": "http://iiif.io/api/image",
+  "tiles": [
+    {
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "width": 256
+    }
+  ],
+  "width": 4001,
+  "height": 2704
+}

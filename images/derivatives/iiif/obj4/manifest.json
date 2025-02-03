@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/obj4",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Faridun crosses the River Dijla, fol. 33v"
+    ]
+  },
+  "items": [
+    {
+      "id": "http://example.org/iiif/4",
+      "type": "Canvas",
+      "height": 4993,
+      "width": 3329,
+      "items": [
+        {
+          "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/page/obj4-obj4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/annotation/obj4-obj4",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj4-obj4/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 4993,
+                "width": 3329,
+                "service": [
+                  {
+                    "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj4-obj4",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

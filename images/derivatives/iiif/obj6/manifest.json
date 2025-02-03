@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/obj6",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Diwan of Jami Manuscript"
+    ]
+  },
+  "items": [
+    {
+      "id": "http://example.org/iiif/6",
+      "type": "Canvas",
+      "height": 5441,
+      "width": 4081,
+      "items": [
+        {
+          "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/page/obj6-obj6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/annotation/obj6-obj6",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj6-obj6/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 5441,
+                "width": 4081,
+                "service": [
+                  {
+                    "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj6-obj6",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/6"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

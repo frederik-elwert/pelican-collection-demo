@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/obj11",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Portrait of Sheikh Ali Mirza"
+    ]
+  },
+  "items": [
+    {
+      "id": "http://example.org/iiif/11",
+      "type": "Canvas",
+      "height": 4671,
+      "width": 2708,
+      "items": [
+        {
+          "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/page/obj11-obj11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/annotation/obj11-obj11",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj11-obj11/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 4671,
+                "width": 2708,
+                "service": [
+                  {
+                    "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj11-obj11",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/11"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

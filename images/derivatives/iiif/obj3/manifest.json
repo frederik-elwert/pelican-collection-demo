@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/obj3",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Map of the World"
+    ]
+  },
+  "items": [
+    {
+      "id": "http://example.org/iiif/3",
+      "type": "Canvas",
+      "height": 5398,
+      "width": 4000,
+      "items": [
+        {
+          "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/page/obj3-obj3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/annotation/obj3-obj3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj3-obj3/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 5398,
+                "width": 4000,
+                "service": [
+                  {
+                    "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj3-obj3",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

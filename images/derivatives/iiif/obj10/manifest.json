@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/obj10",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Portrait of Hasan 'Ali Mirza Shuja al-Saltana"
+    ]
+  },
+  "items": [
+    {
+      "id": "http://example.org/iiif/10",
+      "type": "Canvas",
+      "height": 4331,
+      "width": 2501,
+      "items": [
+        {
+          "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/page/obj10-obj10",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/annotation/obj10-obj10",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj10-obj10/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 4331,
+                "width": 2501,
+                "service": [
+                  {
+                    "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj10-obj10",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/10"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
