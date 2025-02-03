@@ -55,6 +55,7 @@ IMAGE_PROCESS = {
         "default": "1x",
     },
 }
+IMAGE_PROCESS_PARSER = "html5lib"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

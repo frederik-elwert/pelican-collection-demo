@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "html5lib>=1.1",
     "invoke>=2.2.0",
     "markdown>=3.7",
     "pelican-collection-builder",
