@@ -10,7 +10,7 @@ TIMEZONE = "Europe/Berlin"
 DEFAULT_LANG = "en"
 
 # Collection Builder settings
-COLLECTION_DATA__FILE = "collection.csv"
+COLLECTION_DATA_FILE = "collection.csv"
 COLLECTION_ITEM_META = [
     {"label": "Label", "value": "label"},
     {"label": "Artist", "value": "artist"},
