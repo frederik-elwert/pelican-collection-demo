@@ -21,6 +21,7 @@ COLLECTION_ITEM_META = [
     {"label": "Source", "value": "source", "type": "link"},
 ]
 COLLECTION_CATEGORY = "Collection"
+COLLECTION_ITEM_CONTENT = "“{title}” <i>by</i> {artist}"
 COLLECTION_USE_IIIF = True
 HOME_CATEGORY = "Blog"
 HOME_MAX_ENTRIES = 3
