@@ -32,6 +32,19 @@
 	width: 100%;
 }
 
+/* Object data */
+.content dt {
+	font-weight: bold;
+}
+
+.content {
+	h1, h2, h3, h4, h5, h6 {
+		a {
+			color: var(--bulma-content-heading-color);
+		}
+	}
+}
+
 /* Fix carousel to center images */
 .slider-item img {
 	display: block;

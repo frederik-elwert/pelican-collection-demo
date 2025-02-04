@@ -15,21 +15,21 @@
       "width": 3927,
       "items": [
         {
-          "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/page/obj7-obj7",
+          "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/page/obj7",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/annotation/obj7-obj7",
+              "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/annotation/obj7",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj7-obj7/full/max/0/default.jpg",
+                "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj7/full/max/0/default.jpg",
                 "type": "Image",
                 "height": 5810,
                 "width": 3927,
                 "service": [
                   {
-                    "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj7-obj7",
+                    "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj7",
                     "type": "ImageService3",
                     "profile": "level0"
                   }
