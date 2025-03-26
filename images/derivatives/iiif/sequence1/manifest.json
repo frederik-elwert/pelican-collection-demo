@@ -1,0 +1,117 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/sequence1",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "A series of portraits"
+    ]
+  },
+  "behavior": [
+    "continuous"
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/18",
+      "type": "Canvas",
+      "height": 3924,
+      "width": 2501,
+      "items": [
+        {
+          "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/page/obj9",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/annotation/obj9",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj9/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3924,
+                "width": 2501,
+                "service": [
+                  {
+                    "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj9",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/19",
+      "type": "Canvas",
+      "height": 4331,
+      "width": 2501,
+      "items": [
+        {
+          "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/page/obj10",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/annotation/obj10",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj10/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 4331,
+                "width": 2501,
+                "service": [
+                  {
+                    "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj10",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://example.org/iiif/20",
+      "type": "Canvas",
+      "height": 4671,
+      "width": 2708,
+      "items": [
+        {
+          "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/page/obj11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/annotation/obj11",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj11/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 4671,
+                "width": 2708,
+                "service": [
+                  {
+                    "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj11",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://example.org/iiif/20"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

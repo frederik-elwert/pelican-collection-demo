@@ -6,6 +6,17 @@
 	object-fit: contain;
 }
 
+.collection-item-full .model-display {
+	max-width: 100%;
+	max-height: 75vh;
+	height: 550px;
+	model-viewer {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+	}
+}
+
 .hero-image .hero-body {
 	height: 550px;
 	max-height: 75vh;
@@ -23,13 +34,23 @@
 	object-position: center;
 }
 
-.image-display {
+.image-display.exhibit {
 	margin: 0 auto;
 	width: fit-content;
+
+}
+
+.image-display.exhibit:has(.carousel) {
+	width: 100%;
 }
 
 .image-display.iiif {
 	width: 100%;
+}
+
+.mirador .fullscreen {
+	height: 550px;
+	position: relative;
 }
 
 /* Object data */
@@ -45,6 +66,7 @@
 	}
 }
 
+/* Carousel */
 /* Fix carousel to center images */
 .slider-item img {
 	display: block;
@@ -52,8 +74,27 @@
 }
 
 /* Fix overflowing carousels */
-.card .carousel {
+.carousel {
 	overflow: hidden;
+}
+
+/* Dim carousel buttons */
+.card {
+	.slider-navigation-previous, .slider-navigation-next {
+		opacity: .7;
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+/* Tabs */
+.tabs-content li {
+	display: none;
+	list-style: none;
+	&.is-active {
+		display: block;
+	}
 }
 
 /* Fix card images to keep aspect ratio */
