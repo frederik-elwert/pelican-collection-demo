@@ -17,7 +17,6 @@
 
 
 
-    <script src="https://frederik-elwert.github.io/pelican-collection-demo/theme/tify/tify.js"></script>
     <link href="https://frederik-elwert.github.io/pelican-collection-demo/theme/tify/tify.css" rel="stylesheet"/>
   </head>
 
@@ -51,20 +50,20 @@
       <div class="container">
 <article class="section collection-item-full">
   <header>
-    <h2>
-      <a href="https://frederik-elwert.github.io/pelican-collection-demo/obj9.html" rel="bookmark" title="Permalink to Portrait of Fath 'Ali Shah">Portrait of Fath 'Ali Shah</a></h2>
+    <h1>
+      <a href="https://frederik-elwert.github.io/pelican-collection-demo/obj9.html" rel="bookmark" title="Permalink to Portrait of Fath 'Ali Shah">Portrait of Fath 'Ali Shah</a></h1>
  
   </header>
     <div class="image-display iiif">
         <div id="tify-viewer" style="width: 100%; height: 550px;">
         </div>
-        <script>
-          document.addEventListener('DOMContentLoaded', () => {
-            new Tify({
-              container: '#tify-viewer',
-              manifestUrl: 'https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/obj9/manifest.json'
-            });
-          });
+        <script type="module">
+          import Tify from 'https://frederik-elwert.github.io/pelican-collection-demo/theme/tify/tify.js?0.34.5'
+
+          new Tify({
+            container: '#tify-viewer',
+            manifestUrl: 'https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/obj9/manifest.json',
+          })
         </script>
     </div>
   <div class="columns mt-2">
@@ -74,25 +73,32 @@
     <aside class="column">
       <dl>
         <dt>Label</dt>
-        <dd>        Portrait of Fath 'Ali Shah
+        <dd>                Portrait of Fath 'Ali Shah
+
 </dd>
         <dt>Artist</dt>
-        <dd>        Mihr 'Ali
+        <dd>                Mihr 'Ali
+
 </dd>
         <dt>Type</dt>
-        <dd>        portrait
+        <dd>                portrait
+
 </dd>
         <dt>Location</dt>
-        <dd>        Iran
+        <dd>                Iran
+
 </dd>
         <dt>Current Location</dt>
-        <dd>        The Museum of Islamic Art, Qatar
+        <dd>                The Museum of Islamic Art, Qatar
+
 </dd>
         <dt>Date</dt>
-        <dd>        1816
+        <dd>                1816
+
 </dd>
         <dt>Source</dt>
-        <dd>          <a href="https://commons.wikimedia.org/wiki/File:Mihr_%27Ali,_Iran,_1816_-_Portrait_of_Fath_%27Ali_Shah_-_Google_Art_Project.jpg">https://commons.wikimedia.org/wiki/File:Mihr_%27Ali,_Iran,_1816_-_Portrait_of_Fath_%27Ali_Shah_-_Google_Art_Project.jpg</a>
+        <dd>                <a href="https://commons.wikimedia.org/wiki/File:Mihr_%27Ali,_Iran,_1816_-_Portrait_of_Fath_%27Ali_Shah_-_Google_Art_Project.jpg">https://commons.wikimedia.org/wiki/File:Mihr_%27Ali,_Iran,_1816_-_Portrait_of_Fath_%27Ali_Shah_-_Google_Art_Project.jpg</a>
+
 </dd>
       </dl>
     </aside>

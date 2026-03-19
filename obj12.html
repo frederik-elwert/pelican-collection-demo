@@ -17,7 +17,6 @@
 
 
 
-    <script src="https://frederik-elwert.github.io/pelican-collection-demo/theme/tify/tify.js"></script>
     <link href="https://frederik-elwert.github.io/pelican-collection-demo/theme/tify/tify.css" rel="stylesheet"/>
   </head>
 
@@ -51,20 +50,20 @@
       <div class="container">
 <article class="section collection-item-full">
   <header>
-    <h2>
-      <a href="https://frederik-elwert.github.io/pelican-collection-demo/obj12.html" rel="bookmark" title="Permalink to Excerpt from 'The Book of Horses' (فَرَس نامه [رسالة في الخيول)">Excerpt from 'The Book of Horses' (فَرَس نامه [رسالة في الخيول)</a></h2>
+    <h1>
+      <a href="https://frederik-elwert.github.io/pelican-collection-demo/obj12.html" rel="bookmark" title="Permalink to Excerpt from 'The Book of Horses' (فَرَس نامه [رسالة في الخيول)">Excerpt from 'The Book of Horses' (فَرَس نامه [رسالة في الخيول)</a></h1>
  
   </header>
     <div class="image-display iiif">
         <div id="tify-viewer" style="width: 100%; height: 550px;">
         </div>
-        <script>
-          document.addEventListener('DOMContentLoaded', () => {
-            new Tify({
-              container: '#tify-viewer',
-              manifestUrl: 'https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/obj12/manifest.json'
-            });
-          });
+        <script type="module">
+          import Tify from 'https://frederik-elwert.github.io/pelican-collection-demo/theme/tify/tify.js?0.34.5'
+
+          new Tify({
+            container: '#tify-viewer',
+            manifestUrl: 'https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/obj12/manifest.json',
+          })
         </script>
     </div>
   <div class="columns mt-2">
@@ -74,25 +73,32 @@
     <aside class="column">
       <dl>
         <dt>Label</dt>
-        <dd>        Excerpt from 'The Book of Horses' (فَرَس نامه [رسالة في الخيول)
+        <dd>                Excerpt from 'The Book of Horses' (فَرَس نامه [رسالة في الخيول)
+
 </dd>
         <dt>Artist</dt>
-        <dd>        Bahādur Fīrūz, ʻAbd Allāh Khān
+        <dd>                Bahādur Fīrūz, ʻAbd Allāh Khān
+
 </dd>
         <dt>Type</dt>
-        <dd>        manuscript
+        <dd>                manuscript
+
 </dd>
         <dt>Location</dt>
-        <dd>        Middle East and North Africa
+        <dd>                Middle East and North Africa
+
 </dd>
         <dt>Current Location</dt>
-        <dd>        Qatar National Library
+        <dd>                Qatar National Library
+
 </dd>
         <dt>Date</dt>
-        <dd>        Around 1628 - 1658
+        <dd>                Around 1628 - 1658
+
 </dd>
         <dt>Source</dt>
-        <dd>          <a href="https://www.wdl.org/en/item/10668/">https://www.wdl.org/en/item/10668/</a>
+        <dd>                <a href="https://www.wdl.org/en/item/10668/">https://www.wdl.org/en/item/10668/</a>
+
 </dd>
       </dl>
     </aside>

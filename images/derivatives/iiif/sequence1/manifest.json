@@ -16,6 +16,15 @@
       "type": "Canvas",
       "height": 3924,
       "width": 2501,
+      "thumbnail": [
+        {
+          "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj9/full/128,/0/default.jpg",
+          "type": "Image",
+          "height": 128,
+          "width": 81,
+          "format": "image/jpeg"
+        }
+      ],
       "items": [
         {
           "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/page/obj9",
@@ -50,6 +59,15 @@
       "type": "Canvas",
       "height": 4331,
       "width": 2501,
+      "thumbnail": [
+        {
+          "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj10/full/128,/0/default.jpg",
+          "type": "Image",
+          "height": 128,
+          "width": 73,
+          "format": "image/jpeg"
+        }
+      ],
       "items": [
         {
           "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/page/obj10",
@@ -84,6 +102,15 @@
       "type": "Canvas",
       "height": 4671,
       "width": 2708,
+      "thumbnail": [
+        {
+          "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj11/full/128,/0/default.jpg",
+          "type": "Image",
+          "height": 128,
+          "width": 74,
+          "format": "image/jpeg"
+        }
+      ],
       "items": [
         {
           "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/page/obj11",

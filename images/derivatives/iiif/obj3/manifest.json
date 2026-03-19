@@ -13,6 +13,15 @@
       "type": "Canvas",
       "height": 5398,
       "width": 4000,
+      "thumbnail": [
+        {
+          "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/images/obj3/full/128,/0/default.jpg",
+          "type": "Image",
+          "height": 128,
+          "width": 94,
+          "format": "image/jpeg"
+        }
+      ],
       "items": [
         {
           "id": "https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/page/obj3",

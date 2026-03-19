@@ -17,7 +17,6 @@
 
 
 
-    <script src="https://frederik-elwert.github.io/pelican-collection-demo/theme/tify/tify.js"></script>
     <link href="https://frederik-elwert.github.io/pelican-collection-demo/theme/tify/tify.css" rel="stylesheet"/>
   </head>
 
@@ -51,20 +50,20 @@
       <div class="container">
 <article class="section collection-item-full">
   <header>
-    <h2>
-      <a href="https://frederik-elwert.github.io/pelican-collection-demo/obj3.html" rel="bookmark" title="Permalink to Map of the World">Map of the World</a></h2>
+    <h1>
+      <a href="https://frederik-elwert.github.io/pelican-collection-demo/obj3.html" rel="bookmark" title="Permalink to Map of the World">Map of the World</a></h1>
  
   </header>
     <div class="image-display iiif">
         <div id="tify-viewer" style="width: 100%; height: 550px;">
         </div>
-        <script>
-          document.addEventListener('DOMContentLoaded', () => {
-            new Tify({
-              container: '#tify-viewer',
-              manifestUrl: 'https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/obj3/manifest.json'
-            });
-          });
+        <script type="module">
+          import Tify from 'https://frederik-elwert.github.io/pelican-collection-demo/theme/tify/tify.js?0.34.5'
+
+          new Tify({
+            container: '#tify-viewer',
+            manifestUrl: 'https://frederik-elwert.github.io/pelican-collection-demo/images/derivatives/iiif/obj3/manifest.json',
+          })
         </script>
     </div>
   <div class="columns mt-2">
@@ -74,25 +73,32 @@
     <aside class="column">
       <dl>
         <dt>Label</dt>
-        <dd>        Map of the World
+        <dd>                Map of the World
+
 </dd>
         <dt>Artist</dt>
-        <dd>        Unknown
+        <dd>                Unknown
+
 </dd>
         <dt>Type</dt>
-        <dd>        map
+        <dd>                map
+
 </dd>
         <dt>Location</dt>
-        <dd>        Egypt
+        <dd>                Egypt
+
 </dd>
         <dt>Current Location</dt>
-        <dd>        The Museum of Islamic Art, Qatar
+        <dd>                The Museum of Islamic Art, Qatar
+
 </dd>
         <dt>Date</dt>
-        <dd>        15th century
+        <dd>                15th century
+
 </dd>
         <dt>Source</dt>
-        <dd>          <a href="https://commons.wikimedia.org/wiki/File:Unknown,_Egypt,_15th_Century_-_Map_of_World_-_Google_Art_Project.jpg">https://commons.wikimedia.org/wiki/File:Unknown,_Egypt,_15th_Century_-_Map_of_World_-_Google_Art_Project.jpg</a>
+        <dd>                <a href="https://commons.wikimedia.org/wiki/File:Unknown,_Egypt,_15th_Century_-_Map_of_World_-_Google_Art_Project.jpg">https://commons.wikimedia.org/wiki/File:Unknown,_Egypt,_15th_Century_-_Map_of_World_-_Google_Art_Project.jpg</a>
+
 </dd>
       </dl>
     </aside>
